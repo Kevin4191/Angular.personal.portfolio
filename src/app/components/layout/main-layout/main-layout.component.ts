@@ -15,5 +15,11 @@ import { MatIconModule } from '@angular/material/icon';
 })
 export class MainLayoutComponent {
   public currentYear: number = new Date().getFullYear();
+  public projects: string[] = [
+    'Project 1',
+    'Project 2',
+    'Project 3',
+    'Project 4'
+  ]
 
 }
