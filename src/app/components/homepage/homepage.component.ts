@@ -2,13 +2,12 @@ import { Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-homepage',
-  standalone: true,
-  imports: [
-    MatButtonModule,
-  ],
-  templateUrl: './homepage.component.html',
-  styleUrls: ['./homepage.component.scss']
+    selector: 'app-homepage',
+    imports: [
+        MatButtonModule,
+    ],
+    templateUrl: './homepage.component.html',
+    styleUrls: ['./homepage.component.scss']
 })
 export class HomepageComponent {
   public projects: { name: string, tags: string[], image: string}[] = [
