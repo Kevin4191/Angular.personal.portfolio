@@ -5,6 +5,7 @@
     background-color: #12051c;
     position: sticky;
     top: 0px;
+    z-index: 10001;
     border-radius: 10px;
     font-weight: 700;
     display: flex;
@@ -13,7 +14,7 @@
 
 .menu {
     margin: 0 auto;
-    width: calc(80% - 60px);
+    width: 1300px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -51,7 +52,7 @@
 }
 
 .inner-div {
-    width: calc(80% - 60px);
+    width: 1300px;
     display: flex;
     flex-direction: row;
 
@@ -67,7 +68,7 @@
     background-color: #12051c;
 
     .inner-info {
-        width: calc(80% - 60px);
+        width: 1300px;
         height: 100%;
         margin: 0 auto;
         display: flex;
